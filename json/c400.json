@@ -1,0 +1,25 @@
+{
+    "id": "c400",
+    "modelo": "C 400 X",
+    "year":2018,
+    "descripcion": "Hoy en día la movilidad urbana significa mucho más que ir de A a B: uno no quiere perderse nada y quiere aprovechar todo lo que la ciudad tiene que ofrecer, incluso cuando se está en movimiento. El C 400 X te ofrece esa oportunidad. ¿Estás siempre conectado? El C 400 X también lo está. Es un scooter de tamaño medio que supera fácilmente los desafíos de la movilidad en una ciudad. Escucha tus canciones favoritas mientras conduces y disfruta de la ciudad con tu propia banda sonora. O haz planes con tus amigos a través de tu smartphone conectado sin bajarte del scooter mientras recorres cómodamente las calles de la ciudad. Con el C 400 X, tu ciudad y tus rutas se convierten en un gran espacio abierto. Un espacio abierto propio que puedes cartografiar personalmente y disfrutar de mucha diversión.",
+    "imagenes": ["img/motos/c6501.jpg", "img/motos/c6502.jpg", "img/motos/c6503.jpg", "img/motos/c6504.jpg"],
+    "motor": {
+        "tipo":"Motor de cuatro tiempos monocilindro refrigerado por agua, 4 válvulas por cilindro, árbol de levas colocado en la culata con balancín, lubricación por cárter húmedo",
+        "marchas": "6 Velocidades",
+        "tipoTransmision": "Multidisco en baño de aceite con muelles helicoidales",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"bmw",
+        "pais":"Alemania"
+    },
+    "cilindrada": "647 cc",
+    "dimensiones":{
+        "largo":"2.210 mm",
+        "ancho":"1.305 mm",
+        "alto":"835 mm"
+    },
+    "peso": "204 Kg",
+    "categoria":"scooter"
+}

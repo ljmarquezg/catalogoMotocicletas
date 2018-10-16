@@ -29,120 +29,142 @@
             </div>
         </div>
         <div class="row">
-                <h1 class="bg-dark row text-center">{{moto.modelo}} - {{moto.year}}</h1>
+            <h1 class="bg-dark row text-center">{{moto.modelo}}</h1>
         </div>
         <div class="container-fluid">
-                <div class="col-lg-2">
-            
-                    </div>
+            <div class="col-lg-12 jumbotron">
+                <h3 class="text-center">{{moto.descripcion}}</h3>
+            </div>
 
-            <div class="col-lg-10">
-            <table class="table">
-                <thead>
-                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#descripcion">
-                        <h4>Descripción <span class="caret"></span></h4>
-                    </th>
-                </thead>
-                <tbody class="collapse in" id="descripcion">
-                    <tr>
-                        <td>
-                            <p>{{moto.descripcion}}</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#motor" colspan="2">
-                        <h4>Motor <span class="caret"></span></h4>
-                    </th>
-                </thead>
-                <tbody class="collapse in" id="motor">
-                    <tr>
-                        <td>Tipo:</td>
-                        <td>{{moto.motor.tipo}}</td>
-                    </tr>
-                    <tr>
-                        <td>Marchas:</dt>
-                        <td>{{moto.motor.marchas}}</td>
-                    </tr>
-                    <tr>
-                        <td>Tipo Transmisión:</td>
-                        <td>{{moto.motor.tipoTransmision}}</td>
-                    </tr>
-                    <tr>
-                        <td>Arranque:</td>
-                        <td>{{moto.motor.arranque}}</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <th class="nav nav-tabs" data-toggle="collapse" data-target="#motor" colspan="2">
+                            <h4>Año <span class="caret"></span></h4>
+                        </th>
+                    </thead>
+                    <tbody class="collapse in" id="motor">
+                        <tr>
+                            <td>{{moto.year}}</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <table class="table">
-                <thead>
-                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#cilindrada">
-                        <h4>Cilindrada<span class="caret"></span></h4>
-                    </th>
-                </thead>
-                <tbody class="collapse in" id="cilindrada">
-                    <tr>
-                        <td>{{moto.cilindrada}}</td>
-                    </tr>
-                </tbody>
-            </table>
+                <table class="table">
+                    <thead>
+                        <th class="nav nav-tabs" data-toggle="collapse" data-target="#motor" colspan="2">
+                            <h4>Motor <span class="caret"></span></h4>
+                        </th>
+                    </thead>
+                    <tbody class="collapse in" id="motor">
+                        <tr>
+                            <td>Tipo:</td>
+                            <td>{{moto.motor.tipo}}</td>
+                        </tr>
+                        <tr>
+                            <td>Marchas:</dt>
+                            <td>{{moto.motor.marchas}}</td>
+                        </tr>
+                        <tr>
+                            <td>Tipo Transmisión:</td>
+                            <td>{{moto.motor.tipoTransmision}}</td>
+                        </tr>
+                        <tr>
+                            <td>Arranque:</td>
+                            <td>{{moto.motor.arranque}}</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <table class="table">
-                <thead>
-                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#fabricante" colspan="2">
-                        <h4>Fabricante<span class="caret"></span></h4>
-                    </th>
-                </thead>
-                <tbody class="collapse in" id="fabricante">
-                    <tr>
-                        <td>Nombre del Fabricante:</td>
-                        <td class="text-capitalize">{{moto.fabricante.nombreFabricante}}</td>
-                    </tr>
-                    <tr>
-                        <td>País:</dt>
-                        <td>{{moto.fabricante.pais}}</td>
-                    </tr>
-                </tbody>
-            </table>
+                <table class="table">
+                    <thead>
+                        <th class="nav nav-tabs" data-toggle="collapse" data-target="#cilindrada">
+                            <h4>Cilindrada<span class="caret"></span></h4>
+                        </th>
+                    </thead>
+                    <tbody class="collapse in" id="cilindrada">
+                        <tr>
+                            <td>{{moto.cilindrada}}</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <table class="table">
-                <thead>
-                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#dimensiones" colspan="2">
-                        <h4>Dimensiones<span class="caret"></span></h4>
-                    </th>
-                </thead>
-                <tbody class="collapse in" id="dimensiones">
-                    <tr>
-                        <td>Largo:</td>
-                        <td>{{moto.dimensiones.largo}}</td>
-                    </tr>
-                    <tr>
-                        <td>Ancho:</dt>
-                        <td>{{moto.dimensiones.ancho}}</td>
-                    </tr>
-                    <tr>
-                        <td>Alto:</dt>
-                        <td>{{moto.dimensiones.alto}}</td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#peso" colspan="2">
-                        <h4>Peso<span class="caret"></span></h4>
-                    </th>
-                </thead>
-                <tbody class="collapse in" id="peso">
-                    <tr>
-                        <td>{{moto.peso}}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
+                <table class="table">
+                    <thead>
+                        <th class="nav nav-tabs" data-toggle="collapse" data-target="#fabricante" colspan="2">
+                            <h4>Fabricante<span class="caret"></span></h4>
+                        </th>
+                    </thead>
+                    <tbody class="collapse in" id="fabricante">
+                        <tr>
+                            <td>Nombre del Fabricante:</td>
+                            <td class="text-capitalize">{{moto.fabricante.nombreFabricante}}</td>
+                        </tr>
+                        <tr>
+                            <td>País:</dt>
+                            <td>{{moto.fabricante.pais}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table">
+                    <thead>
+                        <th class="nav nav-tabs" data-toggle="collapse" data-target="#dimensiones" colspan="2">
+                            <h4>Dimensiones<span class="caret"></span></h4>
+                        </th>
+                    </thead>
+                    <tbody class="collapse in" id="dimensiones">
+                        <tr>
+                            <td>Largo:</td>
+                            <td>{{moto.dimensiones.largo}}</td>
+                        </tr>
+                        <tr>
+                            <td>Ancho:</dt>
+                            <td>{{moto.dimensiones.ancho}}</td>
+                        </tr>
+                        <tr>
+                            <td>Alto:</dt>
+                            <td>{{moto.dimensiones.alto}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table">
+                    <thead>
+                        <th class="nav nav-tabs" data-toggle="collapse" data-target="#peso" colspan="2">
+                            <h4>Peso<span class="caret"></span></h4>
+                        </th>
+                    </thead>
+                    <tbody class="collapse in" id="peso">
+                        <tr>
+                            <td>{{moto.peso}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="jumbotron container-fluid relacionados">
+                <h3 class="text-center"><span>Productos relacionados</span></h3>
+                <ul>
+                    <li ng-repeat="moto in relacionados"
+                        class="col-md-3 nav moto">
+                        <div class="thumbnail">
+                            <div class="image-container">
+                                <img ng-src="{{moto.imagenUrl}}" class="img-responsive" alt="{{moto.modelo}}-{{moto.fabricante}}">
+                                <img class="img-circle brand" ng-src="img/logos/{{moto.fabricante}}.jpg">
+                                <span class="label-container">
+                                    <span class="label label-danger">{{moto.fabricante}}</span>
+                                    <span class="label label-danger">{{moto.categoria}}</span>
+                                    <span class="label label-danger">{{moto.year}}</span>
+                                </span>
+                            </div>
+                            <h3 class="modelo">{{moto.modelo}}</h3>
+                            <div class="caption">
+                                <p class="text-center"><a href="#/motos/{{moto.id}}" class="btn btn-danger" role="button">Ver
+                                        detalle</a> </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

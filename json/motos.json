@@ -76,7 +76,7 @@
         "year":2018,
         "descripcion": "¿Qué precio pondrías a una hora de tu tiempo? Se trata de nuestro activo más preciado. Y aun así cada día perdemos mucho tiempo en desplazarnos al trabajo o la universidad.",
         "imagenUrl": "img/motos/xenter1251.jpg",
-        "fabricante":"honda",
+        "fabricante":"yamaha",
         "cilindrada": "125 cc",
         "categoria":"scooter"
     },
@@ -90,6 +90,15 @@
         "fabricante":"bmw",
         "cilindrada": "150 cc",
         "categoria":"deportiva"
+    },
+    {
+        "id": "c650",
+        "modelo": "C 650 Sport",
+        "year":2018,
+        "descripcion": "El maxiscooter BMW C 650 Sport convierte el desplazamiento diario en una experiencia de conducción única. Es el compañero perfecto para aquellos que buscan moverse por la ciudad de forma inteligente. Las prestaciones deportivas y el manejo sin esfuerzo de este scooter de 650 c.c. garantizan una conducción sin igual. El motor de dos cilindros en línea ofrece un par de 63 Nm, 60 CV y una velocidad máxima de 180 km/h. Así llegarás enseguida a tu destino. Ahora tomarás las curvas y sortearás el intenso tráfico de la ciudad aún con más facilidad gracias a la optimización del ágil chasis y la suspensión. ¡Redescubre el mundo en que te mueves cada día! ",
+        "imagenUrl": "img/motos/c6501.jpg",
+        "fabricante":"bmw",
+        "categoria":"scooter"
     }
     
 ]

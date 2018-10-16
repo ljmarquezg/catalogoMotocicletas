@@ -2,9 +2,9 @@
         <nav class="navbar navbar-inverse ">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand"><img src="img/logos/main-logo.png" class="brand-logo"> Catálogo Motocicletas</a>
-                <ul class="nav navbar-nav pull-right" ng-show="mostrarFiltros">
+                <ul class="nav navbar-nav pull-right" ng-show="showMenu">
                     <li class="active">
-                        <a href="" ng-click="filtros">Filtros</a>
+                        <a href="" ng-click="filtros = !filtros">Filtros</a>
                     </li>
                 </ul>
             </div>
@@ -36,7 +36,6 @@
                                             <option value="year">Año</option>
                                             <option value="fabricante">Fabricante</option>
                                             <option value="modelo">Modelo</option>
-                                            <option value="modelo">Modelo</option>
                                         </select>
                                         <span class="input-group-addon" ng-model="reverse" ng-click="reverse = !reverse"><i
                                                 class="glyphicon glyphicon-sort-by-alphabet" ng-class="{'glyphicon-sort-by-alphabet-alt': reverse==true}"></i></span>
@@ -49,26 +48,27 @@
                         <ul class="list-group">
                             <li href="#" class="list-group-item">
                                 Fabricante
+                                    <span class="pointer clear-filter" ng-show="filtroFabricante" ng-click="filterBrand(null)"><i class="text-alert glyphicon glyphicon-remove-circle"></i>Borrar
+                                        Filtros
+                                    </span>
                             </li>
                             <li class="badge pointer" ng-repeat="fabricante in listaFabricantes" ng-click="filterBrand(fabricante)"
                                 ng-class="{active:filtroFabricante==fabricante}">
                                 <!-- <i class="glyphicon glyphicon-ok" ng-show="filtroFabricante==fabricante"></i> -->
                                 <img class="img-circle brand" ng-src="img/logos/{{fabricante}}.jpg">{{fabricante}}
                             </li>
-                            <li class="badge pointer bg-danger" ng-show="filtroFabricante" ng-click="filterBrand(null)"><i class="text-alert glyphicon glyphicon-remove-circle"></i>Borrar
-                                Filtros</li>
                         </ul>
                     </div>
                     <div class="col-md-3 marcas">
                             <ul class="list-group">
                                 <li href="#" class="list-group-item">
                                     Categoría
+                                    <span class="clear-filter pointer" ng-show="filtroCategoria" ng-click="filterCategoria(null)"><i class="text-alert glyphicon glyphicon-remove-circle"></i>Borrar
+                                        Filtros</span>
                                 </li>
                                 <li class="badge pointer" ng-repeat="categoria in listaCategoria" ng-click="filterCategoria(categoria)" ng-class="{active:filtroCategoria==categoria}">
                                     {{categoria}}
                                 </li>
-                                <li class="list-group-item pointer" ng-show="filtroCategoria" ng-click="filterCategoria(null)"><i class="text-alert glyphicon glyphicon-remove-circle"></i>Borrar
-                                    Filtros</li>
                             </ul>
                     </div>
                 </div>

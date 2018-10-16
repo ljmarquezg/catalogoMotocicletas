@@ -1,14 +1,17 @@
-var motoApp = angular.module('motoApp', ['ngRoute', 'motoAppController', 'motoAnimation']);
+var motoApp = angular.module('motoApp', ['ngRoute', 'motoAppController', 'motoAnimation', 'motoService']);
 
 motoApp.directive('ngMenuNavegacion', function(){
     return{
         restrict: 'E',
         templateUrl: 'vistas/menu-navegacion.html',
         controller: ['$scope','$location',function($scope, $location){
-            $scope.mostrarFiltros = false;
-            // Si la pagina actual es homepage muestra el menu de filtros
-            if($location.path() == '/motos'){
-                $scope.mostrarFiltros = true
+            // $scope.mostrarFiltros = false;
+             //Mostrar Menu de filtrado en la barra de navegación
+             $scope.showMenu = false;
+             //Mostrar Menu de filtrado
+             $scope.filtros = false;
+            if ($location.path() == '/motos') {
+                $scope.showMenu = true
             }
         }]
     }

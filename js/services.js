@@ -2,10 +2,9 @@
 /*Creacion de servicio para*/
 
 var motoService = angular.module('motoService', ['ngRoute']);
-
-motoService.factory('Moto', ['$resource'],function($resource){
-    if($scope.filtros === true){
-        // $('.content').css({"position":"fixed","bottom": "0", "overflow-y":"auto"});
-        alert();
+//Servicio para obtener las motos
+motoService.factory('Motos', ['$http',
+    function ($http) {
+        return $http({method: 'GET', url: 'json/motos.json'})
     }
-})
+]);

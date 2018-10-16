@@ -1,0 +1,25 @@
+{
+    "id": "c650",
+    "modelo": "C 650 Sport",
+    "year":2018,
+    "descripcion": "El maxiscooter BMW C 650 Sport convierte el desplazamiento diario en una experiencia de conducción única. Es el compañero perfecto para aquellos que buscan moverse por la ciudad de forma inteligente. Las prestaciones deportivas y el manejo sin esfuerzo de este scooter de 650 c.c. garantizan una conducción sin igual. El motor de dos cilindros en línea ofrece un par de 63 Nm, 60 CV y una velocidad máxima de 180 km/h. Así llegarás enseguida a tu destino. Ahora tomarás las curvas y sortearás el intenso tráfico de la ciudad aún con más facilidad gracias a la optimización del ágil chasis y la suspensión. ¡Redescubre el mundo en que te mueves cada día! ",
+    "imagenes": ["img/motos/c6501.jpg", "img/motos/c6502.jpg", "img/motos/c6503.jpg", "img/motos/c6504.jpg"],
+    "motor": {
+        "tipo":"Motor de cuatro tiempos y dos cilindros refrigerado por agua, cuatro válvulas por cilindro con empujadores, dos árboles de levas, lubricación por cárter seco",
+        "marchas": "6 Velocidades",
+        "tipoTransmision": "Multidisco en baño de aceite con muelles helicoidales",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"bmw",
+        "pais":"Alemania"
+    },
+    "cilindrada": "647 cc",
+    "dimensiones":{
+        "largo":"2.180 mm",
+        "ancho":"877 mm",
+        "alto":"1.378 mm"
+    },
+    "peso": "445 kg",
+    "categoria":"scooter"
+}
