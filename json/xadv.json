@@ -1,0 +1,25 @@
+{
+    "id": "xadv",
+    "modelo": "X-ADV2018",
+    "year":2018,
+    "descripcion": "La Honda X-ADV combina el espíritu de la aventura con prestaciones polivalentes, funcionalidad y confort para desplazamientos urbanos y escapadas de fin de semana. Ofrece una posición de conducción erguida que permite una alta visibilidad y dispone de suspensiones de largo recorrido para afrontar las superficies de terreno más irregulares. Además, la X-ADV ofrece la funcionalidad de una pantalla     parabrisas ajustable en 5 posiciones y un espacio de carga para un casco de estilo off-road.",
+    "imagenes": ["img/motos/xadv1.jpg", "img/motos/xadv2.jpg", "img/motos/xadv1.jpg"],
+    "motor": {
+        "tipo":"L2, SOHC, refrigeración líquida",
+        "marchas": "6 Velocidades",
+        "tipoTransmision": "Multidisco en baño de aceite con muelles helicoidales",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"Honda",
+        "pais":"Japón"
+    },
+    "cilindrada": "745 cc",
+    "dimensiones":{
+        "largo":"2.245 mm",
+        "ancho":"910 mm",
+        "alto":"1.510 mm"
+    },
+    "peso": "238 kg",
+    "categoria":"carreras"
+}

@@ -1,0 +1,26 @@
+
+{
+    "id": "mt-10",
+    "modelo": "MT-10 Tourer Edition",
+    "year":2018,
+    "descripcion": "Hemos cogido la Hyper Naked más potente que hayamos fabricado nunca y le hemos añadido una gama de equipos especialmente desarrollados para que puedas disfrutar de un cariz aún más deportivo y de una mayor autonomía en cualquier recorrido.",
+    "imagenes": ["img/motos/burgman1.jpg", "img/motos/burgman2.jpg", "img/motos/burgman3.jpg", "img/motos/burgman4.jpg"],
+    "motor": {
+        "tipo":"4 tiempos, refrigerado por líquido, DOHC, 4 válvulas",
+        "marchas": "Toma constante, 6 velocidades",
+        "tipoTransmision": "Húmedo, Multidisco",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"yamaha",
+        "pais":"Japón"
+    },
+    "cilindrada": "998cc",
+    "dimensiones":{
+        "largo":"2.095 mm",
+        "ancho":"800 mm",
+        "alto":"1.110 mm"
+    },
+    "peso": "163 kg",
+    "categoria":"deportiva"
+}

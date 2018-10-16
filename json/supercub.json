@@ -1,0 +1,25 @@
+
+{
+    "id": "supercub",
+    "modelo": "Super Cub C125 2019",
+    "year":2019,
+    "descripcion": "El Honda Super Cub o Honda Cub es una motocicleta Honda underbone con un motor de cuatro tiempos de un solo cilindro con cilindrada de 49 a 124 cc",
+    "imagenes": ["img/motos/supercub1.jpg", "img/motos/supercub2.jpg", "img/motos/supercub3.jpg"],
+    "motor": {
+        "tipo":"4 tiempos, 2 válvulas SOHC, refrigerado por aire",
+        "marchas": "6 Velocidades",
+        "tipoTransmision": "Doble embrague",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"Honda",
+        "pais":"Japón"
+    },
+    "cilindrada": "125 cc",
+    "dimensiones":{
+        "largo":"1.915 mm",
+        "ancho":"720 mm",
+        "alto":"1.000  mm"
+    },
+    "peso": "109 kg"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "vfr800x",
+    "modelo": "VFR800X Crossrunner",
+    "year":2018,
+    "descripcion": "La nueva VFR800X Crossrunner te permitirá escapar. Además de compartir el chasis de la VFR800F, ofrece un estilo deportivo y aventurero, potenciado con un motor V4-VTEC mejorado y suspensión tensa de largo recorrido. Y también es muy práctica, ya que dispone completamente de luces LED en los faros delanteros y traseros, 5 puños calefactados con 5 niveles y asiento de altura ajustable. El sistema de control de selección de par motor de Honda (HSTC) y el sistema de freno antibloqueo (ABS) ofrecen una seguridad adicional en condiciones de conducción exigentes.",
+    "imagenes": ["img/motos/vfr800x1.jpg", "img/motos/vfr800x2.jpg", "img/motos/vfr800x3.jpg", "img/motos/vfr800xbk.jpg"],
+    "motor": {
+        "tipo":"4 tiempos, V4 a 90°, DOHC, 16 válvulas, refrigeración líquida",
+        "marchas": "4 Velocidades",
+        "tipoTransmision": "Multidisco en baño de aceite y embrague centrífugo automático",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"Honda",
+        "pais":"Japón"
+    },
+    "cilindrada": "782 cc",
+    "dimensiones":{
+        "largo":"2.190 mm",
+        "ancho":"870 mm",
+        "alto":"1.360  mm"
+    },
+    "peso": "242 kg"
+}

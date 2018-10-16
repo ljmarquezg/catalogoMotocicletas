@@ -1,0 +1,24 @@
+
+
+.presentation.ng-enter,
+.presentation.ng-leave,
+.presentation.ng-move{
+    transition: 0.5s linear all;
+    -webkit-transition: 0.5s linear all;
+    -moz-transition: 0.5s linear all;
+    -ms-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+}
+
+.presentation.ng-enter,
+.presentation.ng-move{
+    opacity: 1;
+    height: 0;
+    overflow: hidden;
+}
+
+.presentation.ng-leave{
+    opacity: 1;
+    overflow: hidden;
+    border:100px
+}

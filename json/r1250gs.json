@@ -1,0 +1,26 @@
+
+{
+    "id": "r1250gs",
+    "modelo": "R 1250 GS",
+    "year":2018,
+    "descripcion": "Ya sea en recorridos largos o fuera de la carretera, la nueva BMW R 1250 GS, con su nuevo motor boxer, es la mejor enduro de viaje con la combinación óptima de dinamismo y comodidad, y lograr que la perfección en tecnología se transforma en placer para viajar. Encontrarás más información sobre los datos técnicos y el equipamiento de serie aquí.",
+    "imagenes": ["img/motos/r1250gs1.jpg", "img/motos/r1250gs2.jpg", "img/motos/r1250gs3.jpg", "img/motos/r1250gs4.jpg"],
+    "motor": {
+        "tipo":"Motor bicilíndrico boxer de cuatro tiempos, refrigerado por aire / líquido, con dos árboles de levas, con eje de compensación y sistema de control variable del motor BMW ShiftCam. ",
+        "marchas": "Seis velocidades en toma constante, con engranajes helicoidales  ",
+        "tipoTransmision": "Automática",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"bmw",
+        "pais":"Alemania"
+    },
+    "cilindrada": "150 cc",
+    "dimensiones":{
+        "largo":"2.207 mm",
+        "ancho":"1.430 mm",
+        "alto":"    952,5 mm"
+    },
+    "peso": "142kg",
+    "categoria":"deportiva"
+}

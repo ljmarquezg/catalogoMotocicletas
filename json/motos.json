@@ -1,0 +1,95 @@
+[
+    {
+        "id":"xadv",
+        "modelo":"X-ADV",
+        "year":2018,
+        "imagenUrl":"img/motos/xadv1.jpg",
+        "descripcion":"La Honda X-ADV combina el espíritu de la aventura con prestaciones polivalentes, funcionalidad y confort para desplazamientos urbanos y escapadas de fin de semana.",
+        "fabricante":"honda",
+        "cilindrada": "745 cc",
+        "categoria":"carreras"
+    },
+
+    {
+        "id": "vfr800x",
+        "modelo": "VFR800X Crossrunner",
+        "year":2018,
+        "imagenUrl":"img/motos/vfr800x1.jpg",
+        "descripcion":"La nueva VFR800X Crossrunner te permitirá escapar. Además de compartir el chasis de la VFR800F, ofrece un estilo deportivo y aventurero para crear una moto versátil con actitud. ",
+        "fabricante":"honda",
+        "cilindrada": "782 cc",
+        "categoria":"carreras"
+    },
+    {
+        "id": "supercub",
+        "modelo": "Super Cub C125",
+        "year":2019,
+        "descripcion": "El Honda Super Cub o Honda Cub es una motocicleta Honda underbone con un motor de cuatro tiempos de un solo cilindro con cilindrada de 49 a 124 cc",
+        "imagenUrl": "img/motos/supercub1.jpg",
+        "fabricante":"honda",
+        "cilindrada": "782 cc",
+        "categoria":"scooter"
+    },
+    {
+        "id": "burgman",
+        "modelo": "Burgman 200",
+        "year":2018,
+        "descripcion": "La ciudad derrocha energía 24 horas al día, siete días a la semana. En cada esquina se esconde una nueva experiencia que disfrutar.",
+        "imagenUrl": "img/motos/burgman1.jpg",
+        "fabricante": "suzuki",
+        "cilindrada": "200 cc",
+        "categoria":"scooter"
+    },
+    {
+        "id": "gsx-r125z",
+        "modelo": "GSX-R125Z",
+        "year":2017,
+        "descripcion": "La Suzuki GSX-R125 2017 permite a la firma japonesa pelear en el segmento de las motos de 125 cc con argumentos similares a los de las rivales a las que se enfrentará",
+        "imagenUrl": "img/motos/gsx-r125z1.jpg",
+        "fabricante": "suzuki",
+        "cilindrada": "125 cc",
+        "categoria":"carreras"
+    },
+    {
+        "id": "mt-10",
+        "modelo": "MT-10 Tourer Edition",
+        "year":2018,
+        "descripcion": "Hemos cogido la Hyper Naked más potente que hayamos fabricado nunca y le hemos añadido una gama de equipos especialmente desarrollados para que puedas disfrutar de un cariz aún más deportivo y de una mayor autonomía en cualquier recorrido.",
+        "imagenUrl": "img/motos/mt-101.jpg",
+        "fabricante":"yamaha",
+        "cilindrada": "998cc",
+        "categoria":"deportiva"
+    },
+    {
+        "id": "nmax125",
+        "modelo": "NMAX 125",
+        "year":2018,
+        "descripcion": "El nuevo scooter deportivo NMAX 125 va a convertir tus desplazamientos urbanos diarios en una experiencia que dejarás de sufrir y empezarás a disfrutar.",
+        "imagenUrl": "img/motos/nmax1251.jpg",
+        "fabricante":"yamaha",
+        "cilindrada": "125cc",
+        "categoria":"scooter"
+    },
+    {
+        "id": "xenter125",
+        "modelo": "Xenter 125",
+        "year":2018,
+        "descripcion": "¿Qué precio pondrías a una hora de tu tiempo? Se trata de nuestro activo más preciado. Y aun así cada día perdemos mucho tiempo en desplazarnos al trabajo o la universidad.",
+        "imagenUrl": "img/motos/xenter1251.jpg",
+        "fabricante":"honda",
+        "cilindrada": "125 cc",
+        "categoria":"scooter"
+    },
+    
+    {
+        "id": "r1250gs",
+        "modelo": "R 1250 GS",
+        "year":2018,
+        "descripcion": "Ya sea en recorridos largos o fuera de la carretera, la nueva BMW R 1250 GS, con su nuevo motor boxer, es la mejor enduro de viaje con la combinación óptima de dinamismo y comodidad, y lograr que la perfección en tecnología se transforma en placer para viajar. Encontrarás más información sobre los datos técnicos y el equipamiento de serie aquí.",
+        "imagenUrl": "img/motos/r1250gs1.jpg",
+        "fabricante":"bmw",
+        "cilindrada": "150 cc",
+        "categoria":"deportiva"
+    }
+    
+]

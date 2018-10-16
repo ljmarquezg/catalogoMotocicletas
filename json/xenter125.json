@@ -1,0 +1,26 @@
+
+{
+    "id": "xenter125",
+    "modelo": "Xenter 125",
+    "year":2018,
+    "descripcion": "Así que tómate un minuto para comprobar cómo la Xenter 125 puede transformar cada viaje y conseguir que aproveches más el tiempo cada día. Creemos que quedarás gratamente sorprendido con la forma en la que este elegante scooter de ruedas altas cambiará tu vida a mejor. Con su económico pero enérgico motor de 125 cc y 4 tiempos, con homologación EU4, y con el amplio espacio para los pies, la innovadora Xenter 125 se ha diseñado para que te muevas entre el tráfico con las mínimas preocupaciones. Así que saca un poco de tiempo. Y disfruta del arte de llegar antes que nadie.",
+    "imagenes": ["img/motos/xenter1251.jpg", "img/motos/xenter1252.jpg", "img/motos/xenter1253.jpg", "img/motos/xenter1254.jpg"],
+    "motor": {
+        "tipo":"Monocilíndrico, 4 tiempos, refrigerado por líquido, SOHC, 4 válvulas",
+        "marchas": "4 Velocidades",
+        "tipoTransmision": "Automática",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"honda",
+        "pais":"Japón"
+    },
+    "cilindrada": "125 cc",
+    "dimensiones":{
+        "largo":"1,990 mm",
+        "ancho":"690 mm",
+        "alto":"1.135 mm"
+    },
+    "peso": "142kg",
+    "categoria":"scooter"
+}

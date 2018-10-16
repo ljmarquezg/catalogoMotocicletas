@@ -1,0 +1,26 @@
+
+{
+    "id": "burgman",
+    "modelo": "Burgman 200",
+    "year":2018,
+    "descripcion": "La ciudad derrocha energía 24 horas al día, siete días a la semana. Cada momento promete algo especial. En cada esquina se esconde una nueva experiencia que disfrutar y todo lo que necesitas es libertad para descubrirlas. Una libertad que te llega de la mano del BURGMAN 200. Como la ciudad misma, el BURGMAN destila originalidad. Con un inteligente espacio para que lleves contigo todo lo que necesites. Descubre lo inteligente que puede llegar a ser un scooter urbano. Sal ahí fuera y descubre tu lado más auténtico en la ciudad.",
+    "imagenes": ["img/motos/burgman1.jpg", "img/motos/burgman2.jpg", "img/motos/burgman3.jpg", "img/motos/burgman4.jpg"],
+    "motor": {
+        "tipo":"4-tiempos, refrigerado por agua, SOHC, monocilíndrico",
+        "marchas": "4 Velocidades",
+        "tipoTransmision": "Automática",
+        "arranque":"Electrico"
+    },
+    "fabricante":{
+        "nombreFabricante":"honda",
+        "pais":"Japón"
+    },
+    "cilindrada": "200 cc",
+    "dimensiones":{
+        "largo":"2.055 mm",
+        "ancho":"740 mm",
+        "alto":"1.355  mm"
+    },
+    "peso": "163 kg",
+    "categoria":"scooter"
+}

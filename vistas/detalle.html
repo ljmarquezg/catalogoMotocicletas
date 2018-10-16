@@ -1,0 +1,151 @@
+<!-- Inyectar la directiva de menu de navegacion -->
+<ng-menu-navegacion></ng-menu-navegacion>
+<div class="row">
+    <div class="lista">
+        <div class="bg-dark container-fluid content">
+            <!-- Listado de imagenes -->
+            <div class="col-md-2 col-sm-12" style="cursor:pointer">
+                <div class="slider-ml" style="cursor:pointer">
+                    <div class="item" ng-repeat="img in moto.imagenes">
+                        <div class="col-md-12 col-xs-3">
+                            <div class="thumbnail">
+                                <img ng-src="{{img}}" class="moto img-responsive" ng-class="{active:imgPrincipal==img}"
+                                    ng-click="cambiarImagen(img)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Imnformación principal -->
+            <div class="col-md-10 col-xs-12">
+                <div class="col-md-12 moto-frame">
+                    <div class="thumbnail ratio">
+                        <div class="image-container">
+                            <img ng-src="{{img}}" ng-class="{active:imgPrincipal==img}" class="presentation img-responsive"
+                                alt="{{moto.modelo}}-{{moto.fabricante.nombreFabricante}}" ng-repeat="img in moto.imagenes">
+                            <img class="img-circle brand" ng-src="img/logos/{{moto.fabricante.nombreFabricante}}.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <h1 class="bg-dark row text-center">{{moto.modelo}} - {{moto.year}}</h1>
+        </div>
+        <div class="container-fluid">
+                <div class="col-lg-2">
+            
+                    </div>
+
+            <div class="col-lg-10">
+            <table class="table">
+                <thead>
+                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#descripcion">
+                        <h4>Descripción <span class="caret"></span></h4>
+                    </th>
+                </thead>
+                <tbody class="collapse in" id="descripcion">
+                    <tr>
+                        <td>
+                            <p>{{moto.descripcion}}</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#motor" colspan="2">
+                        <h4>Motor <span class="caret"></span></h4>
+                    </th>
+                </thead>
+                <tbody class="collapse in" id="motor">
+                    <tr>
+                        <td>Tipo:</td>
+                        <td>{{moto.motor.tipo}}</td>
+                    </tr>
+                    <tr>
+                        <td>Marchas:</dt>
+                        <td>{{moto.motor.marchas}}</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo Transmisión:</td>
+                        <td>{{moto.motor.tipoTransmision}}</td>
+                    </tr>
+                    <tr>
+                        <td>Arranque:</td>
+                        <td>{{moto.motor.arranque}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table">
+                <thead>
+                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#cilindrada">
+                        <h4>Cilindrada<span class="caret"></span></h4>
+                    </th>
+                </thead>
+                <tbody class="collapse in" id="cilindrada">
+                    <tr>
+                        <td>{{moto.cilindrada}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table">
+                <thead>
+                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#fabricante" colspan="2">
+                        <h4>Fabricante<span class="caret"></span></h4>
+                    </th>
+                </thead>
+                <tbody class="collapse in" id="fabricante">
+                    <tr>
+                        <td>Nombre del Fabricante:</td>
+                        <td class="text-capitalize">{{moto.fabricante.nombreFabricante}}</td>
+                    </tr>
+                    <tr>
+                        <td>País:</dt>
+                        <td>{{moto.fabricante.pais}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table">
+                <thead>
+                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#dimensiones" colspan="2">
+                        <h4>Dimensiones<span class="caret"></span></h4>
+                    </th>
+                </thead>
+                <tbody class="collapse in" id="dimensiones">
+                    <tr>
+                        <td>Largo:</td>
+                        <td>{{moto.dimensiones.largo}}</td>
+                    </tr>
+                    <tr>
+                        <td>Ancho:</dt>
+                        <td>{{moto.dimensiones.ancho}}</td>
+                    </tr>
+                    <tr>
+                        <td>Alto:</dt>
+                        <td>{{moto.dimensiones.alto}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                    <th class="nav nav-tabs" data-toggle="collapse" data-target="#peso" colspan="2">
+                        <h4>Peso<span class="caret"></span></h4>
+                    </th>
+                </thead>
+                <tbody class="collapse in" id="peso">
+                    <tr>
+                        <td>{{moto.peso}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+
+<!-- <div ng-sliderml get-moto="moto"></div> -->

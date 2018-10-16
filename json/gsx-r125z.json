@@ -1,0 +1,25 @@
+
+{
+    "id": "gsx-r125z",
+    "modelo": "GSX-R125Z",
+    "year":2018,
+    "descripcion": "La Suzuki GSX-R125 2017 permite a la firma japonesa pelear en el segmento de las motos de 125 cc con argumentos similares a los de las rivales a las que se enfrentará, pero su reciente llegada al mercado le permite aportar interesantes innovaciones como es una llave inteligente o una pantalla LCD, dos “gadgets” que la convierten en la más tecnológica del segmento.",
+    "imagenes": ["img/motos/gsx-r125z1.jpg", "img/motos/gsx-r125z2.jpg", "img/motos/gsx-r125z3.jpg"],
+    "motor": {
+        "tipo":"4 tiempos, monocilíndrica, refigeración líquida, DOHC",
+        "marchas": "6 velocidades de toma constante",
+        "tipoTransmision": "Automática",
+        "arranque":"Electrico sin llave"
+    },
+    "fabricante":{
+        "nombreFabricante":"Suzuki",
+        "pais":"Japón"
+    },
+    "cilindrada": "125 cc",
+    "dimensiones":{
+        "largo":"1.975 mm",
+        "ancho":"670 mm",
+        "alto":"1,070  mm"
+    },
+    "peso": "130 kg"
+}
